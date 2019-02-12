@@ -55,7 +55,7 @@ setup(
     license=about['__license__'],
     keywords='firebase cloud development',
     install_requires=install_requires,
-    packages=find_packages(exclude=['tests']),
+    packages=find_packages(include=['firebase*']),
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
